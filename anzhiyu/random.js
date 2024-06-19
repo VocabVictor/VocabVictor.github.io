@@ -1,3 +1,3 @@
-var posts=["2024/06/19/hello-world/"];function toRandomPost(){
+var posts=["2024/06/19/hello-world/","2024/06/19/hello-world copy 10/","2024/06/19/hello-world copy 11/","2024/06/19/hello-world copy 2/","2024/06/19/hello-world copy 3/","2024/06/19/hello-world copy 4/","2024/06/19/hello-world copy 5/","2024/06/19/hello-world copy 6/","2024/06/19/hello-world copy 7/","2024/06/19/hello-world copy 8/","2024/06/19/hello-world copy 9/","2024/06/19/hello-world copy/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
